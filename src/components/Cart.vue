@@ -74,6 +74,9 @@ import OpenModal from './OpenModal.vue';
 </script>
 
 <style lang="scss" scoped>
+h2{
+  padding: 15px;
+}
   .cart{
     display: flex;
     padding: 2rem 5rem;
@@ -90,6 +93,10 @@ import OpenModal from './OpenModal.vue';
           gap: 1rem;
           align-items: center;          
           padding: 1rem;
+          img{
+            width: 300px;
+            height: 300px;
+          }
         }
       }
     }
