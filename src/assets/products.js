@@ -15,6 +15,5 @@ export const products = [
   {id:10 , name:'밀크쉐이크' , price:2500, image:'./images/d-2.png',category:'음료'},
   {id:11 , name:'커피' , price:2000, image:'./images/d-3.png',category:'음료'},
   {id:12 , name:'라떼' , price:2300, image:'./images/d-4.png',category:'음료'}
-  
-];
+  ];
 export const categories = ['전체','피자','버거','치킨','사이드메뉴','음료'];
