@@ -21,22 +21,25 @@
 
 <style lang="scss" scoped>
   .product-list{
+    background-color: hwb(60 89% 0%);
     display: flex;
     gap: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
     .card{
       padding: 60px 0;
       width: 200px;
       text-align: center;
       p:nth-of-type(1){
         font-size: 1.2rem;
+        font-weight: bold;
       }
       img{
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
+        width: 200px;
+        height: 250px;
+        // object-fit: cover;
         border-radius: 5px;
-        padding: 10px;
+        padding: 5px;
       }
       button{
         margin: 10px 0;
