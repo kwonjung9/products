@@ -21,7 +21,8 @@
 
 <style lang="scss" scoped>
   .product-list{
-    background-color: hwb(60 89% 0%);
+    height: 100%;
+    background-color: hwb(60 85% 0%);
     display: flex;
     gap: 2rem;
     justify-content: center;

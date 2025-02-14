@@ -29,6 +29,7 @@ import { useRouter } from 'vue-router';
 
 <style lang="scss" scoped>
   nav{
+    
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
